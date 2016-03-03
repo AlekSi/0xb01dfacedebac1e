@@ -1,5 +1,7 @@
 # 0xb01dfacedebac1e
 
+`0xb01dfacedebac1e` is here: https://golang.org/src/runtime/signal_amd64x.go#L53
+
 Crashes on OS X 10.11.3.
 
 ```
