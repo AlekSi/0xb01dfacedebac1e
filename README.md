@@ -2,7 +2,7 @@
 
 `0xb01dfacedebac1e` is here: https://golang.org/src/runtime/signal_amd64x.go#L53
 
-Crashes on OS X 10.11.3.
+Crashes on OS X 10.11.3 due to dangerous usage of `unsafe` [in vednored copy of go-spew](https://github.com/AlekSi/0xb01dfacedebac1e/blob/master/vendor/github.com/stretchr/testify/vendor/github.com/davecgh/go-spew/spew/bypass.go). See https://github.com/golang/go/issues/14631
 
 ```
 $ go test -v
