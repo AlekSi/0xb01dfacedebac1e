@@ -1,6 +1,6 @@
 # 0xb01dfacedebac1e
 
-`0xb01dfacedebac1e` is here: https://golang.org/src/runtime/signal_amd64x.go#L53
+`0xb01dfacedebac1e` is here: https://github.com/golang/go/blob/2ebe77a2fda1ee9ff6fd9a3e08933ad1ebaea039/src/runtime/signal_darwin_amd64.go#L89
 
 Crashes on OS X 10.11.3 due to dangerous usage of `unsafe` [in outdated vednored copy of go-spew](https://github.com/AlekSi/0xb01dfacedebac1e/blob/master/vendor/github.com/stretchr/testify/vendor/github.com/davecgh/go-spew/spew/bypass.go). See:
 * https://github.com/golang/go/issues/14631
